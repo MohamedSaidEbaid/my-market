@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "662586471678",
+    "firebase_url": "https://my-market-2925b.firebaseio.com",
+    "project_id": "my-market-2925b",
+    "storage_bucket": "my-market-2925b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662586471678:android:f923a69bfac9f354bba1af",
+        "android_client_info": {
+          "package_name": "com.mohamedsaidebaid.mymarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662586471678-av3r6fu40kl2rd6pbrrksqru8js65dkb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM-giG_UAN2qhYdrWWttHw6rygb21oGIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662586471678-av3r6fu40kl2rd6pbrrksqru8js65dkb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
