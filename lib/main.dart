@@ -6,6 +6,7 @@ import 'package:mymarket/screens/admin/add_product.dart';
 import 'package:mymarket/screens/admin/admin_home.dart';
 import 'package:mymarket/screens/admin/edit_product.dart';
 import 'package:mymarket/screens/admin/manage_product.dart';
+import 'package:mymarket/screens/admin/orders_screen.dart';
 import 'file:///E:/MyAndroidProjects/my_market/lib/screens/user/home_page.dart';
 import 'package:mymarket/screens/login_screen.dart';
 import 'package:mymarket/screens/signup_screen.dart';
@@ -42,6 +43,7 @@ class MyApp extends StatelessWidget {
           EditProduct.id: (context) => EditProduct(),
           ProductInfo.id: (context) => ProductInfo(),
           CartScreen.id: (context) => CartScreen(),
+          OrdersScreen.id: (context) => OrdersScreen(),
         },
       ),
     );

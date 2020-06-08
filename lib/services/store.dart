@@ -42,4 +42,8 @@ class Store {
       });
     }
   }
+
+  Stream<QuerySnapshot> loadOrders() {
+    _firestore.collection(kOrders).snapshots();
+  }
 }

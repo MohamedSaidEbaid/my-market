@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mymarket/constants.dart';
 import 'package:mymarket/screens/admin/add_product.dart';
 import 'package:mymarket/screens/admin/manage_product.dart';
+import 'package:mymarket/screens/admin/orders_screen.dart';
 
 class AdminHome extends StatelessWidget {
   static String id = 'adminHome';
@@ -41,7 +42,9 @@ class AdminHome extends StatelessWidget {
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.all(Radius.circular(20)),
             ),
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pushNamed(context, OrdersScreen.id);
+            },
             child: Text('View Orders'),
           )
         ],
